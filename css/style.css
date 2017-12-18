@@ -1,13 +1,74 @@
+@import "compass/css3";
 
+
+
+li {
+  position:relative;
+  display:inline;
+}
+
+
+span {
+  display:block;
+  width:calc(100% - 60px);
+  height:3px;
+  background:rgb(0, 0, 0);
+  position:absolute;
+  left:40px;
+  bottom:1px;
+}
+
+li a:hover {
+ 	color:rgb(0, 0, 0);
+}
+
+li a:hover ~ span {
+ 	 animation:ul 0.8s ease-in-out;
+   background:#333;
+}
+
+@keyframes ul {
+ 	0% { 
+    width:0;
+  }
+  100% { 
+    width:calc(100% - 23px);
+  }
+}
+ .navbar-nav > li{
+    padding-left:20px;
+    padding-right:20px;
+  } 
+
+  
+.navbar{
+    background-color: rgb(255, 255, 255);
+    font-family: "futura";
+    height: 60px;
+
+}
+.navbar a {
+    color: #000000;
+
+}
 
 .image-grid img {
     display: block;
     width: 100%;
     height:250px;
 }
+.ruimte{
+    height: 40px;
+}
+
+.h1{
+    font-family:"lemon/milk bold";
+    font-weight: bold;
+}
 
 .rowfooter{
-    height: 100px;
+    height: 80px;
+
 }
 
 .information {
@@ -15,6 +76,15 @@
     margin:100px;
     text-align: center;
     font-family: "futura";
+}
+.footer{
+   padding-left:10px;
+    font-family: "futura";
+    font-size: 13px;
+
+}
+.footerrechts{
+    text-align:right;
 }
 
 .ginmenu{
@@ -43,13 +113,14 @@
 .map2{
     width: 570px;
 }
-.navbar{
-    background-color: rgb(230, 231, 233);
-    color: black; 
-}
+
 
 .menu{
     font-family: "apple chancery";
     text-align: center;
     padding-top: 40px;
+}
+
+.header{
+    width: 100%
 }
