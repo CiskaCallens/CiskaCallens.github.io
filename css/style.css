@@ -67,6 +67,20 @@ li a:hover ~ span {
 
 .rowfooter{
     height: 100%;
+    text-align: center;
+    font-family: "futura";
+    font-size: 10pt;
+    padding: 10px;
+
+}
+.follow{
+    background-color: rgb(62, 72, 81);
+    color: white;
+    height: 100%;
+    text-align: center;
+    font-family: "futura";
+    font-size: 10pt;
+    padding: 10px;
 
 }
 
@@ -79,6 +93,19 @@ li a:hover ~ span {
     align-items: center;
     justify-content: center;
 }
+
+.informationhire{
+    padding-top:100px;
+    padding-bottom:100px;
+    padding: 5%;
+    height: 359px;
+    text-align: center;
+    font-family: "futura";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 .personalised{
@@ -100,7 +127,7 @@ li a:hover ~ span {
 .recept{ 
     font-family: "futura";
     font-size: 13px;
-    padding: 10px;
+ 
 }
 
 .huur{
@@ -165,7 +192,7 @@ li a:hover ~ span {
 }
 
 .barman{
-    width:100%
+    width:100%;
 }
 
 .filmpje{
@@ -176,11 +203,15 @@ li a:hover ~ span {
 }
 
 .map1{
-    width: 770px;
+    width: 100%;
 }
 
 .map2{
-    width: 570px;
+    width: 100%;
+}
+
+.map3{
+    width: 100%;
 }
 
 
@@ -206,19 +237,15 @@ div.polaroid {
   }
 
   .button {
-    background-color: rgb(190, 195, 189);
     border: none;
     color: rgb(241, 242, 243);
-    padding: 100px 100px;
-    padding-top: 180px;
     text-align: center;
     font-family: "lemon/milk";
     font-size: 30px;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
-    height: 426px;
-    width: 570px;
+  
 }
 .formulier{
     text-align: center;
@@ -282,6 +309,15 @@ input[type=submit] {
     }
 }
 
+@media screen and (max-width: 768px) {
+    .informationhire {
+        font-size: 8pt;
+        padding: 50px;
+        height: 250px;
+    }
+}
+
+
 
 @media screen and (max-width: 768px) {
     .image-grid img {
@@ -304,6 +340,64 @@ input[type=submit] {
 @media screen and (max-width: 768px) {
     .header{
     height: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-brand{
+    width: 327px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-nav >li{
+    padding:0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .map1{
+    width: 100%;
+    height: 300px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .map2{
+    width: 100%;
+    height: 300px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .map3{
+    width: 100%;
+    height: 300px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .item{
+    margin: 20px; 
+    font-size: 8pt;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    input[type=text], select {
+        padding: 0px;
+        font-size: 8pt;
+        margin: 0px;
+        height: 30px;
+        width: 200px;
+        border-radius: 0px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .questions {
+        padding: 10px
     }
 }
 
