@@ -225,13 +225,7 @@ li a:hover ~ span {
     align: center;
     align-content: center;
 }
-div.polaroid {
-    width: 200px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
-    align-content: center;
-    background-color: rgb(241, 242, 243);
-  }
+
 
   .button {
     border: none;
@@ -285,6 +279,36 @@ input[type=submit] {
     font-family: "futura";
 }
 
+.item2{
+    font-family: "futura";
+    font-size: 10pt;
+    padding-left: 20px;
+
+}
+input[type=text2], select {
+    width: 250px;
+    padding: 2px;
+    margin-left: 20px;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: "futura";
+    background-color: rgb(190, 195, 189);
+}
+input[type=submit2] {
+    width: 80px;
+    background-color:  rgb(62, 72, 81);
+    color: white;
+    padding: 2px;
+    padding-left: 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "futura";
+    align-content: center;
+    margin: 8px;
+    margin-left: 20px;
+}
 
 
 @media screen and (max-width: 768px) {
